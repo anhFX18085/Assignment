@@ -1,0 +1,120 @@
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-size: cover;
+  }
+  .intro-name {
+    font-size: 1.5rem;
+  }
+
+  .avatar {
+    display: none;
+  }
+  .navbar {
+    gap: 20px;
+  }
+  .navigation {
+    display: inline-block;
+    border-left: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+  }
+  .navigation:first-child {
+    margin-left: -3rem;
+  }
+  .navigation:last-child {
+    margin-right: -3rem;
+  }
+  #personal-info ul {
+    margin-left: 2rem;
+  }
+  #personal-info {
+    width: 320px;
+  }
+
+  /* Kinh nghiem */
+  #target {
+    margin-left: -3rem;
+  }
+  .job-info {
+    max-width: 750px;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+  }
+
+  .exp {
+    margin-left: 10px;
+  }
+  .kinh-nghiem {
+    grid-row: 1 / 3;
+    align-self: flex-start;
+  }
+
+  .language {
+    margin-top: 0;
+    grid-column: 2 / 3;
+    align-self: stretch;
+  }
+  .skills {
+    margin-top: -10%;
+    grid-column: 1 / 2;
+  }
+
+  .so-thich {
+    justify-self: center;
+    margin-top: -30%;
+  }
+  li {
+    margin-left: -2rem;
+  }
+  /* CHUNG CHI */
+
+  .cert {
+    flex-direction: column;
+  }
+  .certificate img {
+    width: 250px;
+    height: auto;
+  }
+  .org-line2 {
+    background-color: orangered;
+    display: block;
+    height: 50%;
+    width: 2px;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Projects */
+  .project {
+    max-width: 768px;
+  }
+  .project img {
+    width: 200px;
+    height: auto;
+  }
+  table {
+    width: 200px;
+    height: 350px;
+  }
+
+  td:first-child {
+    width: 50px;
+  }
+  td,
+  tr {
+    padding: 5px;
+  }
+
+  .project-name,
+  .project-info {
+    width: 200px;
+  }
+  .project-info .blue {
+    align-self: flex-start;
+  }
+  .projects-flex {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

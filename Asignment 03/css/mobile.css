@@ -1,0 +1,147 @@
+@media only screen and (max-width: 500px) {
+  .banner {
+    background-size: cover;
+  }
+
+  .avatar {
+    display: none;
+  }
+
+  /* NAV BAR */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    margin-left: 1rem;
+  }
+
+  .container a {
+    border: none;
+  }
+  .navigation {
+    flex-direction: column;
+    border: none;
+  }
+
+  .navigation:first-child {
+    margin-left: 0;
+  }
+
+  /* Kinh nghiem */
+  .self-intro {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #target {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  #target h1,
+  #target p {
+    margin-left: -1rem;
+  }
+  #personal-info {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  #personal-info h1 {
+    margin-left: 2rem;
+  }
+
+  .job-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills,
+  .so-thich,
+  .language,
+  .hoat-dong,
+  .hoc-van,
+  .kinh-nghiem {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .exp {
+    margin-left: 10px;
+  }
+
+  li {
+    margin-left: -2rem;
+  }
+  /* CHUNG CHI */
+
+  .certificate {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certificate img {
+    width: 400px;
+    height: auto;
+  }
+  .org-line2 {
+    background-color: orangered;
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+  .org-line {
+    background-color: orangered;
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h3 {
+    color: #333;
+  }
+
+  /* Projects */
+  .project {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  table {
+    width: 100%;
+  }
+
+  td:first-child {
+    width: 90px;
+  }
+
+  .project-name,
+  .project-info {
+    width: 100%;
+  }
+  .project-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .projects-flex {
+    gap: 10px;
+  }
+
+  /* Footer */
+
+  .mail {
+    display: none;
+  }
+  .footer i {
+    font-size: 40px;
+  }
+}
